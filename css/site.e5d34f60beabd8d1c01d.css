@@ -648,6 +648,11 @@ template {
 .fm-start:before {
   content: "\e643";
 }
+*,
+*:before,
+*:after {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 .fm-action-sheet {
   position: fixed;
   left: 5px;
