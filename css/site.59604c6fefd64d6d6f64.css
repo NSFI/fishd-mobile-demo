@@ -1957,6 +1957,10 @@ template {
   position: relative;
 }
 .fm-carousel-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0;
   font-size: 18px;
   color: #333;
   background: none;
@@ -1979,6 +1983,9 @@ template {
 .fm-carousel-wrap-dot-active > span {
   background: #fff;
   width: 12px;
+}
+.fm-carousel-dotout {
+  padding-bottom: 26px;
 }
 
 @font-face {
@@ -10320,7 +10327,15 @@ template {
   color: #ccc;
 }
 .u-demo__list {
-  padding: 0 10px;
+  padding-bottom: 30px;
+}
+.u-demo .demo-title {
+  font-size: 12px;
+  padding: 24px 16px 12px 16px;
+  color: #333;
+}
+.u-demo .demo-card {
+  padding: 0 12px;
 }
 
 * {
