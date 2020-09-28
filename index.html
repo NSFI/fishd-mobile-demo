@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Fish Design Mobile Demo</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui, viewport-fit=cover">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui, viewport-fit=cover">
   <link rel="stylesheet" href="//at.alicdn.com/t/font_1801276_m3qzwx2dhrm.css">
 <link href="./css/site.f1c9c6e89f3210565daa.css" rel="stylesheet"></head>
+
 <body>
-<div id="app"></div>
-<!-- <script src="https://cdn.jsdelivr.net/npm/@vant/touch-emulator"></script> -->
+  <div id="app"></div>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@vant/touch-emulator"></script> -->
+  <script>
+    //通过touchstart和touchend
+    window.onload = function () {
+      document.addEventListener( 'touchstart', function ( event ) {
+        if ( event.touches.length > 1 ) {
+          event.preventDefault();  //阻止元素的默认行为
+        }
+      } )
+      var lastTouchEnd = 0;
+      document.addEventListener( 'touchend', function ( event ) {
+        var now = ( new Date() ).getTime();
+        if ( now - lastTouchEnd <= 300 ) {
+          event.preventDefault();
+        }
+        lastTouchEnd = now;  //当前为最后一次触摸
+      }, false )
+    }
+  </script>
 <script type="text/javascript" src="./mobileDll.js?70bc77911e0b1a5a6b86"></script><script type="text/javascript" src="./js/site.e23a1cee1f2b.js"></script></body>
+
 </html>
