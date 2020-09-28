@@ -1,3 +1,4 @@
+@import url(http://at.alicdn.com/t/font_1801276_m3qzwx2dhrm.css);
 .u-home {
   padding: 40px 20px;
   word-break: break-all;
@@ -38,6 +39,17 @@
   font-weight: 500;
 }
 
+/** 色彩 **/
+/** 字体大小 **/
+/** 圆角 **/
+/** 边框尺寸 **/
+/** 间距 **/
+/** 高度 **/
+/** 图标尺寸 **/
+/** 字体尺寸 **/
+/** z-index **/
+/** 透明度 **/
+/** 组件变量 **/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -629,47 +641,6 @@ template {
   100% {
     transform: translate(0, -100%);
   }
-}
-@font-face {
-  font-family: "iconfont";
-  src: url('//at.alicdn.com/t/font_1801276_hv3ns38qjzw.eot?t=1592902233480');
-  /* IE9 */
-  src: url('//at.alicdn.com/t/font_1801276_hv3ns38qjzw.eot?t=1592902233480#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'), url('//at.alicdn.com/t/font_1801276_hv3ns38qjzw.woff?t=1592902233480') format('woff'), url('//at.alicdn.com/t/font_1801276_hv3ns38qjzw.ttf?t=1592902233480') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */ url('//at.alicdn.com/t/font_1801276_hv3ns38qjzw.svg?t=1592902233480#iconfont') format('svg');
-  /* iOS 4.1- */
-}
-.iconfont {
-  font-family: "iconfont" !important;
-  font-size: 16px;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.fm-moreinfo-copy:before {
-  content: "\e647";
-}
-.fm-laba:before {
-  content: "\e650";
-}
-.fm-close:before {
-  content: "\e606";
-}
-.fm-loading:before {
-  content: "\e689";
-}
-.fm-left:before {
-  content: "\e60a";
-}
-.fm-search:before {
-  content: "\e60b";
-}
-.fm-home:before {
-  content: "\e69b";
-}
-.fm-more:before {
-  content: "\e753";
-}
-.fm-start:before {
-  content: "\e643";
 }
 *,
 *:before,
@@ -1308,8 +1279,79 @@ template {
   padding: 0 8px;
   font-size: 10px;
 }
-.fm-button > .fm-button-icon {
-  margin-right: 0.5em;
+.fm-button .fm-icon + .fm-button-text,
+.fm-button .fm-button__loading + .fm-button-text {
+  margin-left: 4px;
+}
+.fm-button .fm-loading__spinner {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  max-width: 100%;
+  height: 30px;
+  max-height: 100%;
+  vertical-align: middle;
+  -webkit-animation: fm-rotate 0.8s linear infinite;
+          animation: fm-rotate 0.8s linear infinite;
+}
+@-webkit-keyframes fm-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes fm-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fm-button .fm-loading__spinner--circular {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+.fm-button .fm-loading__circular {
+  width: 20px;
+  height: 20px;
+}
+.fm-button .fm-loading__circular circle {
+  -webkit-animation: fm-circular 1.5s ease-in-out infinite;
+          animation: fm-circular 1.5s ease-in-out infinite;
+  stroke: currentColor;
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+@-webkit-keyframes fm-circular {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -40;
+  }
+  100% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -120;
+  }
+}
+@keyframes fm-circular {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -40;
+  }
+  100% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -120;
+  }
 }
 
 .fm-carousel {
@@ -1340,7 +1382,7 @@ template {
   background: rgba(255, 255, 255, 0.3);
 }
 .fm-carousel-wrap-dot-active > span {
-  background: #fff;
+  background: #FFF;
   width: 12px;
 }
 .fm-carousel-dotout {
@@ -2015,49 +2057,48 @@ template {
   width: 24px;
 }
 
-.icon {
-  width: 1em;
-  height: 1em;
-  vertical-align: -0.15em;
-  fill: currentColor;
-  overflow: hidden;
-}
 .fm-icon {
-  fill: currentColor;
-  background-size: cover;
-  width: 22px;
-  height: 22px;
+  position: relative;
+  color: inherit;
+  font-size: initial;
 }
-.fm-icon-xxs {
-  width: 15px;
-  height: 15px;
+.fm-icon-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  min-width: 16px;
+  padding: 0 3px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: -apple-system-font, Helvetica Neue, Arial, sans-serif;
+  line-height: 1.2;
+  text-align: center;
+  background-color: #ee0a24;
+  border: 1px solid #fff;
+  border-radius: 16px;
+  transform: translate(50%, -50%);
+  transform-origin: 100%;
 }
-.fm-icon-xs {
-  width: 18px;
-  height: 18px;
+.fm-icon-badge-dot {
+  width: 8px;
+  min-width: 0;
+  height: 8px;
+  background-color: #ee0a24;
+  border-radius: 100%;
 }
-.fm-icon-sm {
-  width: 21px;
-  height: 21px;
+.fm-icon-loading {
+  display: inline-block;
+  -webkit-animation: cirleAnim 1s linear infinite;
+          animation: cirleAnim 1s linear infinite;
 }
-.fm-icon-md {
-  width: 22px;
-  height: 22px;
-}
-.fm-icon-lg {
-  width: 36px;
-  height: 36px;
-}
-.fm-icon-fm-loading {
-  -webkit-animation: cirle-anim 1s linear infinite;
-          animation: cirle-anim 1s linear infinite;
-}
-@-webkit-keyframes cirle-anim {
+@-webkit-keyframes cirleAnim {
   100% {
     transform: rotate(360deg);
   }
 }
-@keyframes cirle-anim {
+@keyframes cirleAnim {
   100% {
     transform: rotate(360deg);
   }
@@ -2871,8 +2912,8 @@ template {
   position: relative;
   display: inline-block;
   width: 30px;
-  max-width: 100%;
   height: 30px;
+  max-width: 100%;
   max-height: 100%;
   vertical-align: middle;
   -webkit-animation: fm-rotate 0.8s linear infinite;
@@ -3542,7 +3583,7 @@ template {
   justify-content: center;
   height: 30px;
   padding-top: 6px;
-  background-color: #f2f3f5;
+  background-color: #F2F3F5;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
@@ -3570,7 +3611,7 @@ template {
   cursor: pointer;
 }
 .fm-number-keyboard__body {
-  background-color: #f2f3f5;
+  background-color: #F2F3F5;
   padding: 6px 0 0 6px;
   display: flex;
 }
@@ -3611,11 +3652,11 @@ template {
 }
 .fm-number-key__blue {
   font-size: 16px;
-  color: #fff;
-  background-color: #1989fa;
+  color: #FFF;
+  background-color: #1989FA;
 }
 .fm-number-key__blue:active {
-  background-color: #0570db;
+  background-color: #0570DB;
 }
 .fm-number-key__wider {
   flex: 0 0 auto;
@@ -3897,7 +3938,7 @@ template {
   padding: 10px 10px 22px 10px;
   font-size: 12px;
   color: #222;
-  background-color: #fff;
+  background-color: #FFF;
 }
 .fm-steps__description {
   margin-top: 5px;
@@ -3926,6 +3967,8 @@ template {
 }
 .fm-steps__vertical .fm-steps__dot {
   display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 10px;
   left: -15px;
@@ -3994,6 +4037,9 @@ template {
   right: 0;
 }
 .fm-steps__horizontal .fm-steps__dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 30px;
   left: 0;
@@ -5090,9 +5136,9 @@ template {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  height: 40px;
+  height: 50px;
   margin-bottom: 20px;
-  line-height: 40px;
+  line-height: 50px;
   text-align: center;
   background-color: #fff;
   z-index: 100;
@@ -5103,7 +5149,7 @@ template {
   top: 0;
   width: 40px;
   height: 40px;
-  font-size: 24px;
+  font-size: 18px;
 }
 .u-demo__title {
   position: relative;
