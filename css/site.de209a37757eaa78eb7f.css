@@ -1950,6 +1950,10 @@ template {
   margin-left: 0;
 }
 
+.form-error-explain {
+  font-size: 14px;
+}
+
 /* flexbox */
 .fm-grid .fm-flexbox .fm-grid-null-item {
   background-color: #fff;
@@ -3492,6 +3496,13 @@ template {
   zoom: 1;
   overflow: hidden;
 }
+.fm-modal-close-x:after {
+  content: '\D7';
+  font-size: 20px;
+}
+.fm-modal-popup .fm-modal-close-x {
+  margin-top: 10px;
+}
 
 .am-navbar {
   display: flex;
@@ -3808,26 +3819,8 @@ template {
 .fm-rate-disable .fm-rate-disabled {
   color: #C8C9CC;
 }
-.fm-rate-lg {
-  font-size: 36px;
-}
-.fm-rate-lg .fm-icon {
-  width: 36px;
-  height: 36px;
-}
-.fm-rate-md {
-  font-size: 22px;
-}
-.fm-rate-md .fm-icon {
-  width: 22px;
-  height: 22px;
-}
-.fm-rate-sm {
-  font-size: 15px;
-}
-.fm-rate-sm .fm-icon {
-  width: 15px;
-  height: 15px;
+.fm-rate .fm-icon {
+  position: unset;
 }
 .fm-rate-disabled .fm-rate-star {
   cursor: default;
@@ -4565,9 +4558,9 @@ template {
   background: white;
 }
 .fm-tabs-horizontal-nav-wrap {
+  position: relative;
   height: 44px;
   overflow: hidden;
-  border-bottom: 1px solid #d3d3d3;
 }
 .fm-tabs-horizontal-nav {
   width: 100%;
@@ -4583,15 +4576,25 @@ template {
 .fm-tabs-horizontal-nav::-webkit-scrollbar {
   display: none;
 }
+.fm-tabs-horizontal-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #f0f1f3;
+}
 .fm-tabs-horizontal-tab {
   overflow: hidden;
   white-space: nowrap;
   text-align: center;
-  padding: 8px 0;
+  line-height: 44px;
   display: inline-block;
+  color: #333333;
 }
 .fm-tabs-horizontal-tab-active {
-  color: #337eff;
+  color: #333333;
+  font-weight: 500;
 }
 .fm-tabs-horizontal-active-bar {
   position: absolute;
@@ -4599,6 +4602,8 @@ template {
   background: #337eff;
   height: 2px;
   left: 0;
+  z-index: 10;
+  width: 40px;
 }
 .fm-tabs-horizontal-active-bar-animated {
   transition: left 0.5s ease-in-out;
@@ -4627,7 +4632,7 @@ template {
   height: 100%;
   width: 80px;
   overflow: hidden;
-  border-right: 1px solid #d3d3d3;
+  position: relative;
 }
 .fm-tabs-vertical-nav {
   overflow-x: hidden;
@@ -4642,14 +4647,24 @@ template {
 .fm-tabs-vertical-nav::-webkit-scrollbar {
   display: none;
 }
+.fm-tabs-vertical-line {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background: #f0f1f3;
+}
 .fm-tabs-vertical-tab {
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #333333;
 }
 .fm-tabs-vertical-tab-active {
-  color: #337eff;
+  color: #333333;
+  font-weight: 500;
 }
 .fm-tabs-vertical-active-bar {
   position: absolute;
@@ -4658,6 +4673,7 @@ template {
   width: 2px;
   height: 100%;
   top: 0;
+  z-index: 10;
 }
 .fm-tabs-vertical-active-bar-animated {
   transition: top 0.5s ease-in-out;
