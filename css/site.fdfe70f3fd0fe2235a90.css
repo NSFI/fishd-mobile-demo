@@ -1,25 +1,39 @@
-@import url(//at.alicdn.com/t/font_1801276_m3qzwx2dhrm.css);
+@import url(//at.alicdn.com/t/font_1801276_4kz56chbhit.css);
 .u-home {
   padding: 40px 20px;
   word-break: break-all;
   overflow-x: hidden;
   color: #333;
 }
+.u-home .u-part_1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 55px;
+}
+.u-home .u-part_2 {
+  position: absolute;
+  left: 0;
+  top: 450px;
+  width: 40px;
+  z-index: -1;
+}
 .u-home .u-logo {
   text-align: center;
 }
 .u-home .u-logo img {
-  width: 200px;
-  height: 54px;
+  width: 100px;
+  height: auto;
 }
 .u-home .u-desc {
+  margin-top: 4px;
+  padding-bottom: 20px;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   color: #333;
-  padding: 20px 0;
 }
 .u-home__title {
-  margin: 28px 0 9px 16px;
+  margin: 30px 0 9px 16px;
   font-size: 12px;
   color: #337EFF;
   font-weight: normal;
@@ -966,6 +980,7 @@ template {
   position: relative;
   width: 100%;
   height: 100%;
+  text-align: center;
 }
 .fm-avatar-icon-font {
   position: absolute;
@@ -1011,20 +1026,36 @@ template {
   height: 24px;
   font-size: 10.5px;
 }
+.fm-avatar-xs .fm-avatar-icon-font {
+  line-height: 24px;
+  font-size: 15px;
+}
 .fm-avatar-sm {
   width: 36px;
   height: 36px;
   font-size: 14px;
+}
+.fm-avatar-sm .fm-avatar-icon-font {
+  line-height: 36px;
+  font-size: 23px;
 }
 .fm-avatar-md {
   width: 48px;
   height: 48px;
   font-size: 21px;
 }
+.fm-avatar-md .fm-avatar-icon-font {
+  line-height: 48px;
+  font-size: 31px;
+}
 .fm-avatar-lg {
   width: 64px;
   height: 64px;
   font-size: 28px;
+}
+.fm-avatar-lg .fm-avatar-icon-font {
+  line-height: 64px;
+  font-size: 41px;
 }
 .fm-avatar-badge .fm-badge-dot {
   border: 1px solid #fff;
@@ -2374,6 +2405,7 @@ template {
 }
 .fm-label-closeable {
   margin-left: 5px;
+  font-size: 8px;
 }
 .fm-label-sm {
   min-height: 17px;
@@ -3504,44 +3536,45 @@ template {
   margin-top: 10px;
 }
 
-.am-navbar {
+.fm-navbar {
   display: flex;
   align-items: center;
   height: 45px;
-  background-color: #108ee9;
-  color: #fff;
+  background-color: #FFF;
+  color: #333;
+  font-size: 16px;
 }
-.am-navbar-left,
-.am-navbar-title,
-.am-navbar-right {
+.fm-navbar-left,
+.fm-navbar-title,
+.fm-navbar-right {
   flex: 1;
   height: 100%;
   display: flex;
   align-items: center;
 }
-.am-navbar-left {
+.fm-navbar-left {
   padding-left: 15px;
-  font-size: 16px;
+  color: #333;
 }
-.am-navbar-left-icon {
+.fm-navbar-left-icon {
   margin-right: 5px;
   display: inherit;
 }
-.am-navbar-title {
+.fm-navbar-title {
   justify-content: center;
-  font-size: 18px;
   white-space: nowrap;
+  font-weight: 500;
 }
-.am-navbar-right {
+.fm-navbar-right {
   justify-content: flex-end;
-  font-size: 16px;
   margin-right: 15px;
+  color: #333;
 }
-.am-navbar-light {
+.fm-navbar-light {
   background-color: #fff;
   color: #108ee9;
 }
-.am-navbar-light .am-navbar-title {
+.fm-navbar-light .fm-navbar-title {
   color: #333;
 }
 
@@ -4712,20 +4745,34 @@ template {
 .fm-toast.fm-toast-nomask .fm-toast-notice {
   transform: translateX(-50%) translateY(-50%);
 }
+.fm-toast-notice-content .fm-toast-text.fm-toast-text-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 88px;
+  max-width: 70%;
+  min-height: 88px;
+}
 .fm-toast-notice-content .fm-toast-text {
   min-width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border-radius: 3px;
   color: #fff;
   background-color: rgba(58, 58, 58, 0.9);
   line-height: 1.5;
-  padding: 9px 15px;
+  padding: 16px;
 }
 .fm-toast-notice-content .fm-toast-text.fm-toast-text-icon {
+  line-height: 1;
   border-radius: 5px;
   padding: 15px 15px;
 }
 .fm-toast-notice-content .fm-toast-text.fm-toast-text-icon .fm-toast-text-info {
-  margin-top: 6px;
+  margin-top: 15px;
 }
 
 .fm-upload__wrapper {
@@ -5142,18 +5189,20 @@ template {
 .u-demo {
   box-sizing: border-box;
   min-height: 100vh;
-  background: url(//ysf.nosdn.127.net/zeenqqdsasgclvvedsbvueqvkzpufgoj) top right no-repeat;
   background-color: #f7f8fa;
-  background-position-y: 40px;
-  background-size: 100px 59px;
   overflow-x: hidden;
+}
+.u-demo .u-part_1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 55px;
 }
 .u-demo__header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   height: 50px;
-  margin-bottom: 20px;
   line-height: 50px;
   text-align: center;
   background-color: #fff;
@@ -5169,10 +5218,9 @@ template {
 }
 .u-demo__title {
   position: relative;
-  padding: 0 10px;
+  padding: 20px 10px;
   font-size: 20px;
   color: #222;
-  margin-bottom: 15px;
 }
 .u-demo__title::after {
   content: '';
