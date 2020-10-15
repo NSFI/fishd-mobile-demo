@@ -5250,6 +5250,10 @@ template {
   padding: 0 12px;
 }
 
+html,
+body {
+  font-family: "PingFang SC", "San Francisco", "Noto Sans Han", Roboto;
+}
 * {
   margin: 0;
   padding: 0;
