@@ -1912,6 +1912,11 @@ template {
   opacity: 0.8;
   content: '';
 }
+.fm-dropdown-menu__title--active::after {
+  margin-top: -1px;
+  transform: rotate(135deg);
+  border-color: transparent transparent currentColor currentColor;
+}
 .fm-dropdown-menu_bar {
   position: relative;
   display: flex;
@@ -1921,11 +1926,6 @@ template {
 }
 .fm-dropdown-menu_bar--opened {
   z-index: 11;
-}
-.fm-dropdown-menu_bar--opened .fm-dropdown-menu__title::after {
-  margin-top: -1px;
-  transform: rotate(135deg);
-  border-color: transparent transparent currentColor currentColor;
 }
 .fm-dropdown-item {
   position: fixed;
